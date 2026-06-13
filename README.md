@@ -1,10 +1,10 @@
 # Rust Base64 Encoder/Decoder
 
-A high-performance Base64 encoder and decoder written entirely from scratch in Rust. This tool was built as a learning exercise to understand byte-level manipulation and bitwise operations without relying on any external dependencies or crates.
+A Base64 encoder and decoder written entirely from scratch in Rust. This tool was built as a learning exercise to understand byte-level manipulation and bitwise operations without relying on any external dependencies or crates.
 
-It features a dual-target architecture:
+It features a two target architecture:
 - **Core Library (`lib.rs`)**: Contains the raw algorithmic logic (bit shifting and masking).
-- **CLI Wrapper (`main.rs`)**: A lightweight command-line interface that allows you to easily encode or decode strings and files directly from your terminal.
+- **CLI Wrapper (`main.rs`)**: A command line interface that allows you to easily encode or decode strings and files directly from your terminal.
 
 ## Installation
 
